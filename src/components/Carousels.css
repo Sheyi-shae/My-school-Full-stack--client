@@ -34,7 +34,7 @@
 .content {
   font-size: 18px;
   font-family: 'helvetica';
-  margin-top: -70px;
+  margin-top: -10px;
 }
 /* Carousels.css */
 
@@ -79,16 +79,72 @@
   .cta-button {
     
   }
-  .animatedImage {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 2;
-    height:200px;
-          width:200px;/* This should be higher than the z-index of other elements */
-  }
+  
 }
 
 
 
 
+@media (max-width: 481px) {
+  .SliderTitle {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    
+    color: white;
+    margin: 0;
+  
+    
+  }
+  .borderRight{
+    border-right:1px  white;
+    margin-top:60px;
+  }
+  
+  .StripeBlue {
+    background: linear-gradient(115deg, orange,#007bff);
+    height: 50px;
+    width: 0;
+    margin-bottom: 30px;
+  }
+  
+  
+  .content {
+    font-size: 16px;
+   
+  }
+  
+  
+  
+}
+
+@media (max-width: 412px) {
+  .SliderTitle {
+    font-size: 23px;
+    font-family: 'Playfair Display', serif;
+    
+    color: white;
+    margin: 0;
+  
+    
+  }
+  .borderRight{
+   
+    margin-top:230px;
+  }
+  
+  .StripeBlue {
+    background: linear-gradient(115deg, orange,#007bff);
+    height: 40px;
+    width: 0;
+    margin-bottom: 20px;
+  }
+  
+  
+  .content {
+    font-size: 13px;
+   
+  }
+  
+  
+  
+}

@@ -12,7 +12,9 @@ import axios from 'axios';
 
 
 
+
 function Homepage() {
+ 
   const[isSubmitting,setIsSubmitting]=useState(false);
    
   //rendering opacity from 0  to 1
@@ -69,7 +71,7 @@ formData.append('message', data.message);
     <div>
       <Helmet><title>Homepage</title></Helmet>
     <br/>
-      <div className='ContainerSize'>
+      <div xs='12'>
         {/* Carousel rapper */}
       <AppCarousels/>
       {/*  Carousel ends here */}
@@ -79,7 +81,7 @@ formData.append('message', data.message);
           {/* First Col */}
           <div className='ColHeight' style={{ background: 'linear-gradient(34deg, #007bff 4%, #EADBDB 78%, #fff 100%)', padding:'20px' }}>
           <img
-        src="/icons/male-clerk-hitting-the-cash-register-over-the-vinyl-sheet-svgrepo-com.svg"
+        src="/Icons/male-clerk-hitting-the-cash-register-over-the-vinyl-sheet-svgrepo-com.svg"
         alt="Icon 1"
         style={{ width: '40px', height: '40px' }}
       />
@@ -93,8 +95,8 @@ formData.append('message', data.message);
           <div  className='ColHeight' style={{ background: 'linear-gradient(34deg, #007bff 4%, #EADBDB 78%, #fff 100%)',padding:'20px' }}>
          
           <img
-        src="/icons/forum-message-svgrepo-com.svg" 
-        alt="Icon 1"
+        src="/Icons/forum-message-svgrepo-com.svg" 
+        alt="Icon 2"
         style={{ width: '40px', height: '40px' }}
       />
           

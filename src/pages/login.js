@@ -34,7 +34,7 @@ function Login() {
     setErrorMessage('');
 
     if (formData.usernameOrEmail === '' || formData.password === '') {
-      setErrorMessage('Please enter both email/username and password.');
+      setErrorMessage('Please enter your login credentials.');
       setLoading(false);
       return;
     }
@@ -59,7 +59,7 @@ function Login() {
         if (error.response && error.response.data && error.response.data.error) {
           setErrorMessage(error.response.data.error);
         } else {
-          setErrorMessage('No internet connection');
+          setErrorMessage('poor internet connection');
         }
         setLoading(false);
       });
