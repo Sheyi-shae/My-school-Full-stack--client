@@ -73,7 +73,7 @@ function Login() {
       <br />
       <br />
       <Container>
-        <Col className='loginPage ' md='6' xs='6'>
+        <Col className='loginPage ' md='6' xs='11'>
           <div className='loginPageContainer'>
             <br />
             <center>
