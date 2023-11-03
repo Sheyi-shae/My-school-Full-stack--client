@@ -65,7 +65,7 @@
   box-shadow: 4px 2px 4px 4px rgba(0, 0, 0, 0.2);
 }
 .loginPageContainer{
-  width:80%;
+  
   margin: 0 auto;
 
 }
@@ -297,9 +297,7 @@ color:red;
   height:50vh;
  
 }
-.about{
- 
-}
+
 
 .section.active {
   opacity: 1; 

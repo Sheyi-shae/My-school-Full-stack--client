@@ -87,7 +87,7 @@ formData.append('message', data.message);
       />
             <h5>Enroll Now</h5>
             <p>Sign up to explore the app.</p>
-            <Button variant='outline-warning' disabled>Sign up</Button>
+            
           </div>
         </Col>
         <Col>
