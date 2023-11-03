@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.nav-headbg{
+  background: linear-gradient(125deg, #f8f9fa,#007bff);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 100;   }
+  .nav-headround{
+    background: linear-gradient(125deg, #f8f9fa,#007bff);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius:40px;
+  top: 0;
+  z-index: 100; 
+
+
+}
+.mybtn{
+  background: linear-gradient(125deg, #f8f9fa,#007bff);
+ 
+  
+ 
+  z-index: 100; 
+}
+.ContainerSize{
+  width:80%;
+  margin: 0 auto;
+}
+.loginPage{
+  
+ 
+  margin: 0 auto;
+  box-shadow: 2px 2px 4px 8px rgba(0, 0, 0, 0.2);
+  
+}
+.box-shadow1{
+  box-shadow: 4px 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.loginPageContainer{
+  width:80%;
+  margin: 0 auto;
+
+}
+.createPage{
+  width:60%;
+ 
+  margin: 0 auto;
+  box-shadow: 4px 2px 4px 4px rgba(0, 0, 0, 0.2);
+  
+}
+.commentSection{
+  height:400px;
+}
+
+
+
+.fixed-bottom1{
+  
+  background: linear-gradient(125deg, #eff1f5,#dee9f5);
+  
+  border-radius:16px;
+  
+ 
+  box-shadow:0 2px 4px 4px rgba(0, 0, 0, 0.2);
+  
+  z-index:10000;
+  padding:7px;
+  margin:5px; 
+  
+}
+.box-shadow1{
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 1);
+}
+.createPageContainer{
+  width:90%;
+  margin: 0 auto;
+
+}
+.CarouselHeight{
+  height:350px;
+  max-height:360px;
+  width:80%;
+}
+.SliderTitle {
+  font-size: 100px;
+  font-family: 'Playfair Display', serif;
+  background: linear-gradient(125deg, #2d2d2e, #007bff);
+  -webkit-background-clip: text; /* For WebKit browsers */
+  background-clip: text; /* Standard property */
+  color: transparent;
+  margin: 0;
+
+  
+}
+
+/* Add a pseudo-element with the gradient background */
+
+
+.SliderSnippet {
+  font-size:large;
+  float: left;
+ 
+  font-family: 'Montserrat';
+
+ 
+  color:black;
+}
+.SliderButton {
+  font-size:large;
+  margin-top: 100px;
+  margin-left: -100px;
+  float:left;
+  
+}
+.EntryName{
+  text-transform:capitalize;
+}
+/*posts*/
+.postTopic{
+  text-transform: 'uppercase';
+   font-size:'18px';
+
+}
+.postTime{
+  margin-top: '-10px';
+  font-size:'11px';
+  font-family:'Helvetica';
+
+}
+.postUser{
+  margin-top: '-10px';
+  text-transform: 'capitalize';
+  font-size:'11px';
+  font-family:'Helvetica';
+
+}
+.postContent{
+  font-family:'Arial';
+
+}
+.icon {
+  display: inline-block;
+
+  padding-right: 125px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination .btn {
+  margin: 0 5px;
+}
+
+.pagination .btn.active {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.pagination .btn:hover {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+
+.title:hover {
+  /* Your hover effect styles here */
+ 
+  cursor: pointer;
+  
+}
+.deleteIcon:hover {
+  cursor: pointer;
+}
+.blue{
+  color:blue;
+}
+.red{
+color:red;
+}
+.Nav-font{
+  font-family:'Didot',serif;
+  font-family:'Didot',serif,sans-serif;
+ 
+}
+.deleteIcon{
+  color:gray;
+  float:right;
+}
+
+.deleteIcon:hover{
+  color:black;
+}
+/* .profileImagechange{ */
+  .profile-picture {
+    text-align: center;
+    position: relative;
+    
+  }
+  .Amount{
+   
+     
+  }
+  /* Custom CSS to position the element */
+ .ml-auto1 {
+  position: absolute;
+  right: 0;
+}
+
+.profile-image {
+    width: 270px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
+  }
+  
+  .edit-icon {
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: blue;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-icon svg {
+    color: white;
+  }
+  /* search css */
+  .results {
+    margin-top: 1px;
+     border-radius: 7px;
+    background-color:  #dfe3eb;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
+    position:relative;
+    
+  }
+  
+  .titleSearch {
+    cursor: pointer;
+  
+  top: 100%; /* Position the dropdown below the search input */
+  left: 0;
+  z-index: 1;
+  
+    padding: 10px;
+    background-color:  #dfe3eb;
+    border-bottom:1px solid gray;
+   
+    
+  }
+  
+  .titleSearch:hover {
+    background: linear-gradient(125deg, white, #007bff);
+  
+  }
+  
+  
+/* homepage css for display */
+  .section {
+  opacity: 0; 
+  transition: opacity 2s ease; 
+  height:50vh;
+ 
+}
+.about{
+ 
+}
+
+.section.active {
+  opacity: 1; 
+}
+.borderRight{
+  border-right:1px solid blue;
+}
+
+
+
+/* Adjustments for mobile screens */
+@media (max-width: 768px) {
+  .icon {
+    display: inline-block;
+    margin: 10px auto;
+    text-align: center;
+  }
+  .ColHeight{
+    height: 280px;
+  }
+  .borderRight{
+    border-right:1px  white;
+    padding:20px;
+}
+.borderRight1{
+  border-right:1px  white;
+  padding:20px;
+}
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  
+}
+

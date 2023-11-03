@@ -1,0 +1,9 @@
+/* styles for the Navbar component */
+.nav-headbg {
+  background: linear-gradient(125deg, #f8f9fa, #007bff);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  
+  z-index: 100;
+}
+
+/* Additional styles can be added here for specific elements within the Navbar */

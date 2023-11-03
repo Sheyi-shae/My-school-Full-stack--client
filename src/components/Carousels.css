@@ -1,0 +1,94 @@
+/* src/ElegantAnimation.css */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.elegant-animation {
+  text-align: center;
+  padding: 50px;
+  height:auto;
+
+}
+
+.SliderTitle {
+  font-size: 60px;
+  font-family: 'Playfair Display', serif;
+  
+  color: white;
+  margin: 0;
+
+  
+}
+.tit{
+  background: linear-gradient(125deg, #2d2d2e, #007bff);
+  -webkit-background-clip: text; /* For WebKit browsers */
+  background-clip: text; /* Standard property */
+}
+
+.StripeBlue {
+  background: linear-gradient(115deg, orange,#007bff);
+  height: 60px;
+  width: 0;
+  margin-bottom: 20px;
+  border-radius:5px;
+}
+
+
+.content {
+  font-size: 18px;
+  font-family: 'helvetica';
+  margin-top: -70px;
+}
+/* Carousels.css */
+
+
+
+
+
+.animatedImage {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  height:450px;
+        width:400px;
+}
+
+@media (max-width: 768px) {
+  .SliderTitle {
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    
+    color: white;
+    margin: 0;
+  
+    
+  }
+
+  
+  .StripeBlue {
+    background: linear-gradient(115deg, orange,#007bff);
+    height: 65px;
+    width: 0;
+    margin-bottom: 30px;
+  }
+  
+  
+  .content {
+    font-size: 18px;
+   
+  }
+  
+  .cta-button {
+    
+  }
+  .animatedImage {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    height:200px;
+          width:200px;/* This should be higher than the z-index of other elements */
+  }
+}
+
+
+
+
