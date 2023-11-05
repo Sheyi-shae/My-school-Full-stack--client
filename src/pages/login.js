@@ -44,6 +44,7 @@ function Login() {
       .then((response) => {
         if (response.data.error) {
           setErrorMessage(response.data.error);
+          console.log(error);
         } else {
           setAuthState(true); // Set authentication state to true upon successful login
           navigate('/');
