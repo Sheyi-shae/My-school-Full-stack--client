@@ -40,7 +40,7 @@ function Login() {
     }
 
     axios
-      .post('http://localhost:3001/auth/login', formData)
+      .post('https://server-side-my-school.vercel.app/auth/login', formData)
       .then((response) => {
         if (response.data.error) {
           setErrorMessage(response.data.error);
